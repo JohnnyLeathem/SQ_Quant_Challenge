@@ -98,6 +98,8 @@ To run the code via command line:
 
 - Enhance regime classification with more nuanced states.
 
-## License
+## Author
+
+Jonathan Leathem (2025)
 
 
