@@ -40,7 +40,7 @@ This project uses machine learning to predict US credit spreads based on macroec
 | 04/01/2018 | 1.30               | 3.60               | 17.2  | 122           |
 | 05/01/2018 | 1.35               | 3.62               | 16.5  | 121           |
 
-4. Since the project's main code is in a **Jupyter Notebook** (.ipynb) format, it is not directly executable via the command line using python script_name.py.
+4. Since the project's main code is in a **Jupyter Notebook** (`.ipynb`) format, it is not directly executable via the command line using `python script_name.py`.
 
 Instead, to run the notebook:
   - Open it in Jupyter Notebook or JupyterLab.
@@ -51,7 +51,7 @@ To run the code via command line:
     ```
     jupyter nbconvert --to script your_notebook.ipynb
     ```
-  - This generates your_notebook.py, which you can then run with:
+  - This generates `your_notebook.py`, which you can then run with:
     ```
     python your_notebook.py
     ```
@@ -101,5 +101,3 @@ To run the code via command line:
 ## Author
 
 Jonathan Leathem (2025)
-
-
