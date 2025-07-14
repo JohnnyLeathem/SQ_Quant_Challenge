@@ -64,6 +64,8 @@ To run the code via command line:
 
 📦 SQ_Quant_Challenge/
 
+├── README.md
+
 ├── SQIG_Code.ipynb              # Main Jupyter notebook containing the full analysis, modeling, and results
 
 ├── SQIG_data.csv                # Primary dataset with macroeconomic indicators, VIX, and credit spreads
@@ -71,6 +73,8 @@ To run the code via command line:
 ├── SQIG Final Report Summary - PDF.pdf  # Concise report summarising approach, results, and insights
 
 ├── requirements.txt             # List of Python package dependencies required to run the notebook
+
+├── LICENSE
 
 ## Usage
 
