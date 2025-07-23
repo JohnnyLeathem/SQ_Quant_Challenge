@@ -62,7 +62,7 @@ To run the code via command line:
 
 ## File Structure
 
-📦 SQ_Quant_Challenge/
+SQ_Quant_Challenge/
 
 ├── README.md
 
