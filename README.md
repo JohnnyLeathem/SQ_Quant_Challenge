@@ -66,7 +66,7 @@ SQ_Quant_Challenge/
 
 ├── README.md
 
-├── SQIG_Code.ipynb              # Main Jupyter notebook containing the full analysis, modeling, and results
+├── SQIG_Code_1.ipynb              # Main Jupyter notebook containing the full analysis and results
 
 ├── SQIG_data.csv                # Primary dataset with macroeconomic indicators, VIX, and credit spreads
 
@@ -84,9 +84,7 @@ SQ_Quant_Challenge/
 
 ## Results
 
-- XGBoost achieved ~99% directional accuracy on credit spread prediction.
-
-- Long-term Treasury yields were the most important features.
+- XGBoost achieved ~50% directional accuracy on credit spread prediction.
 
 - The ETF allocation strategy dynamically switched between growth and defensive ETFs according to model regimes.
 
@@ -97,6 +95,8 @@ SQ_Quant_Challenge/
 - Incorporate additional macro features (inflation surprises, employment data).
 
 - Enhance regime classification with more nuanced states.
+
+- Implement greater backtesting.
 
 ## Author
 
