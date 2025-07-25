@@ -1,6 +1,6 @@
 # Credit Spread Prediction and ETF Allocation Strategy
 
-This project uses machine learning to predict US credit spreads based on macroeconomic indicators and market volatility. It implements a regime-switching trading strategy that dynamically allocates ETFs based on forecasted credit market risk.
+This project uses machine learning to predict U.S. credit spreads based on macroeconomic indicators and market volatility. It implements a regime-switching trading strategy that dynamically allocates ETFs based on forecasted credit market risk.
 
 ## Overview
 
@@ -9,17 +9,17 @@ This project uses machine learning to predict US credit spreads based on macroec
   - Predicted credit spreads
   - Market regime classification ("Low Risk" / "High Risk")
   - Dynamic ETF allocation signals based on regimes and credit spread direction
-- **Data:** Weekly US Treasury yields (short-term and long-term), VIX index, historical credit spreads.
+- **Data:** Weekly U.S. Treasury yields (short-term and long-term), VIX index, historical credit spreads.
 - **Models:** Linear Regression, Random Forest, XGBoost (best performance).
 - **Strategy:** Rotate ETFs weekly between growth and defensive based on predicted regime.
 
 ## Features
 
-- Lagged and rolling window features to capture temporal dynamics.
-- Feature importance analysis for interpretability.
+- Lagged features to capture temporal dynamics.
+- Feature importance and SHAP analysis for interpretability.
 - Regime classification combining VIX and predicted credit spreads.
 - Tactical spread direction signals (widening/tightening) for trade timing.
-- Visualization of feature importance and model performance.
+- Visualisation of feature importance and model performance.
 
 ## Setup Instructions
 
