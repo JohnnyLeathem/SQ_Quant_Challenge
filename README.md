@@ -1,6 +1,6 @@
 # Credit Spread Prediction and ETF Allocation Strategy
 
-This project uses machine learning to predict US credit spreads based on macroeconomic indicators and market volatility. It implements a regime-switching trading strategy that dynamically allocates ETFs based on forecasted credit market risk.
+This project uses machine learning to predict U.S. credit spreads based on macroeconomic indicators and market volatility. It implements a regime-switching trading strategy that dynamically allocates ETFs based on forecasted credit market risk.
 
 ## Overview
 
@@ -9,17 +9,17 @@ This project uses machine learning to predict US credit spreads based on macroec
   - Predicted credit spreads
   - Market regime classification ("Low Risk" / "High Risk")
   - Dynamic ETF allocation signals based on regimes and credit spread direction
-- **Data:** Weekly US Treasury yields (short-term and long-term), VIX index, historical credit spreads.
+- **Data:** Weekly U.S. Treasury yields (short-term and long-term), VIX index, historical credit spreads.
 - **Models:** Linear Regression, Random Forest, XGBoost (best performance).
 - **Strategy:** Rotate ETFs weekly between growth and defensive based on predicted regime.
 
 ## Features
 
-- Lagged and rolling window features to capture temporal dynamics.
-- Feature importance analysis for interpretability.
+- Lagged features to capture temporal dynamics.
+- Feature importance and SHAP analysis for interpretability.
 - Regime classification combining VIX and predicted credit spreads.
 - Tactical spread direction signals (widening/tightening) for trade timing.
-- Visualization of feature importance and model performance.
+- Visualisation of feature importance and model performance.
 
 ## Setup Instructions
 
@@ -66,7 +66,7 @@ SQ_Quant_Challenge/
 
 ├── README.md
 
-├── SQIG_Code.ipynb              # Main Jupyter notebook containing the full analysis, modeling, and results
+├── SQIG_Code_1.ipynb              # Main Jupyter notebook containing the full analysis and results
 
 ├── SQIG_data.csv                # Primary dataset with macroeconomic indicators, VIX, and credit spreads
 
@@ -84,9 +84,7 @@ SQ_Quant_Challenge/
 
 ## Results
 
-- XGBoost achieved ~99% directional accuracy on credit spread prediction.
-
-- Long-term Treasury yields were the most important features.
+- XGBoost achieved ~50% directional accuracy on credit spread prediction.
 
 - The ETF allocation strategy dynamically switched between growth and defensive ETFs according to model regimes.
 
@@ -97,6 +95,8 @@ SQ_Quant_Challenge/
 - Incorporate additional macro features (inflation surprises, employment data).
 
 - Enhance regime classification with more nuanced states.
+
+- Implement greater backtesting.
 
 ## Author
 
